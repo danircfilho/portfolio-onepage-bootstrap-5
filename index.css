@@ -1,0 +1,47 @@
+/* Body */
+body {
+  position: relative; 
+}
+
+body::before {
+  /* Apply opacity effect - "background-image" */
+  position: absolute;
+  content: "";
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  /* "background-image" */
+  background-image: url(/img/food-cover.jpg);
+  background-size: cover;
+  background-color: #040f13;
+  opacity: 0.8;
+}
+
+.img-icon-cover {
+  position: relative;
+  width: 100px;
+  height: auto;
+}
+
+/* Cover */
+.text-cover {
+  position: relative; /* Override background-image opacity */
+  font-family: 'Amatic SC', cursive;
+  font-weight: 600;
+  font-size: 50px;
+  color: #2e1916 !important;
+  text-shadow: 1px 1px #bf9788 !important;
+}
+
+.text-cover h1 {
+  font-size: 70px;
+  font-weight: 800;
+}
+
+.text-cover p {
+  /* Animation CSS */
+  animation: rubberBand;
+  animation-duration: 5s;
+}
+
