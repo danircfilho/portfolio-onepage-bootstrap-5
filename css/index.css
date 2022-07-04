@@ -10,7 +10,7 @@
 
 .logo-nav-color:hover {
   /* Reference: #f4c94f */
-  filter: invert(90%) sepia(47%) saturate(4400%) hue-rotate(318deg) brightness(103%) contrast(91%);;
+  filter: invert(90%) sepia(47%) saturate(4400%) hue-rotate(318deg) brightness(103%) contrast(91%);
 }
 
 a.navbar-brand {
@@ -56,7 +56,12 @@ a.navbar-brand:hover {
 button.navbar-toggler {
   /* Button - Hamburguer */
   border-color: #bf9788;
-  box-shadow: none !important;
+}
+
+button.navbar-toggler:hover {
+  /* Button - Hamburguer */
+  background-color: #f4c94f;
+  
 }
 
 .btn-nav {
@@ -91,7 +96,7 @@ button.navbar-toggler {
   font-weight: 600;
   font-size: 50px;
   color: #140d13;
-  /* Animation CSS */
+  /* ==== Animation CSS ==== */
   animation: fadeInDown;
   animation-duration: 5s;
 }
@@ -100,7 +105,7 @@ button.navbar-toggler {
   color: #140d13 !important;
   font-size: 20px !important;
   font-weight: 600;
-  /* Animation CSS */
+  /* ==== Animation CSS ==== */
   animation: fadeInDown;
   animation-duration: 5s;
 }
@@ -111,7 +116,7 @@ button.navbar-toggler {
   font-size: 30px;
   color: #2e1916;
   text-shadow: 1px 1px #bf9788;
-  /* Animation CSS */
+  /* ==== Animation CSS ==== */
   animation: bounceInRight;
   animation-duration: 5s;
 }
@@ -130,7 +135,7 @@ button.navbar-toggler {
   font-family: 'Indie Flower', cursive;
   font-weight: 800; 
   font-size: 25px;  
-  /* Animation CSS */
+  /* ==== Animation CSS ==== */
   animation: bounceInLeft;
   animation-duration: 4s;
 } 
@@ -148,6 +153,10 @@ button.navbar-toggler {
 } 
 
 /* Columns */
+.bg-color-column {
+  background-color: #f8f9fb;
+
+}
 .icon-column-color {
   /* Reference: #5f9e95 */
   filter: invert(60%) sepia(15%) saturate(879%) hue-rotate(122deg) brightness(93%) contrast(86%);
@@ -162,6 +171,13 @@ button.navbar-toggler {
 /* Section */
 .section-bg {
   background-color: #accbd3;
+}
+
+.bg-yellow-jumbotron {
+  background-color: #e9b75d;
+}
+.coment-bottom {
+  margin-bottom: 3rem;
 }
 
 /* Footer */
@@ -185,4 +201,27 @@ button.navbar-toggler {
   background-color: #b49130;
   box-shadow: 5px 2px 2px #140d13;
   transform: scale(0.98);  
+}
+
+/* Animation */
+[data-anime] {
+  opacity: 0;
+  transition: .6s;
+}
+
+[data-anime="left"] {
+  transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime="right"] {
+  transform: translate3d(50px, 0, 0);
+}
+
+[data-anime="up"] {
+  transform: translate3d(0, -50px, 0);
+}
+
+[data-anime].animate {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
 }
