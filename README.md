@@ -2,7 +2,7 @@
 
 ## Descrição
 
-- One page para compreender o framework front-end.
+- One page desenvolvida para compreender o framework front-end.
 
 ## Tecnologias básicas utilizadas no aprendizado:
 
