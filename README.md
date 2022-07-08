@@ -1,23 +1,23 @@
 # Bootstrap 5
 
-## Descrição
+## Description
 
-- One page desenvolvida para compreender o framework front-end.
+- One page that expresses gastronomy.
 
-## Tecnologias básicas utilizadas no aprendizado:
+## Technologies used in the project:
 
 - Bootstrap 5
 - CSS
 - HTML
 - Javascript
 
-## Hospedagem
+## Hosting
 
 - Frontend: Netlify
 
-## Visite este projeto no website:
+## View this project:
 
-https://daniel-bootstrap5.netlify.app
+https://daniel-onepage-bootstrap5.netlify.app
 
 Copyrigth (c) 2022 - Daniel Rodrigues de Carvalho Filho
 
