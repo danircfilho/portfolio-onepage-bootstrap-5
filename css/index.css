@@ -58,12 +58,6 @@ button.navbar-toggler {
   border-color: #bf9788;
 }
 
-button.navbar-toggler:hover {
-  /* Button - Hamburguer */
-  background-color: #f4c94f;
-  
-}
-
 .btn-nav {
   background-color:#f4c94f;
   color: #140d13;
