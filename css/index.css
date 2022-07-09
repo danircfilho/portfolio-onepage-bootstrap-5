@@ -58,12 +58,6 @@ button.navbar-toggler {
   border-color: #bf9788;
 }
 
-button.navbar-toggler:hover {
-  /* Button - Hamburguer */
-  background-color: #f4c94f;
-  
-}
-
 .btn-nav {
   background-color:#f4c94f;
   color: #140d13;
@@ -96,7 +90,7 @@ button.navbar-toggler:hover {
   font-weight: 600;
   font-size: 50px;
   color: #140d13;
-  /* ==== Animation CSS ==== */
+  /* Animation CSS */
   animation: fadeInDown;
   animation-duration: 5s;
 }
@@ -105,7 +99,7 @@ button.navbar-toggler:hover {
   color: #140d13 !important;
   font-size: 20px !important;
   font-weight: 600;
-  /* ==== Animation CSS ==== */
+  /* Animation CSS */
   animation: fadeInDown;
   animation-duration: 5s;
 }
@@ -116,7 +110,7 @@ button.navbar-toggler:hover {
   font-size: 30px;
   color: #2e1916;
   text-shadow: 1px 1px #bf9788;
-  /* ==== Animation CSS ==== */
+  /* Animation CSS */
   animation: bounceInRight;
   animation-duration: 5s;
 }
@@ -135,7 +129,7 @@ button.navbar-toggler:hover {
   font-family: 'Indie Flower', cursive;
   font-weight: 800; 
   font-size: 25px;  
-  /* ==== Animation CSS ==== */
+  /* Animation CSS */
   animation: bounceInLeft;
   animation-duration: 4s;
 } 
@@ -152,7 +146,7 @@ button.navbar-toggler:hover {
   transform: scale(0.98) !important;
 } 
 
-/* Columns */
+/* Main */
 .bg-color-card-section {
   background-color: #f8f9fb;
 
@@ -162,17 +156,12 @@ button.navbar-toggler:hover {
   filter: invert(60%) sepia(15%) saturate(879%) hue-rotate(122deg) brightness(93%) contrast(86%);
 }
 
-.animation-column {
-  /* Animation CSS */
-  animation: fadeInLeftBig;
-  animation-duration: 1.5s;
-}
-
-/* Section */
-.section-bg {
+/* Main - Section */
+.bg-section {
   background-color: #accbd3;
 }
 
+/* Card-Images */
 .bg-yellow-jumbotron {
   background-color: #e9b75d;
 }
