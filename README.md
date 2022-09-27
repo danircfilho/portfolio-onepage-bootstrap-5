@@ -11,13 +11,9 @@
 - HTML
 - Javascript
 
-## Hosting
-
-- Frontend: Netlify
-
 ## View this project:
 
-https://daniel-onepage-bootstrap5.netlify.app
+https://danielrodrigues.dev.br/restaurante
 
 Copyrigth (c) 2022 - Daniel Rodrigues de Carvalho Filho
 
