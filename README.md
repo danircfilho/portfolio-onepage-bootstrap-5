@@ -13,7 +13,7 @@
 
 ## View this project:
 
-https://danielrodrigues.dev.br/restaurante
+https://onepage.danielrodrigues.dev.br
 
 Copyrigth (c) 2022 - Daniel Rodrigues de Carvalho Filho
 
